@@ -115,7 +115,7 @@ form button:hover {
   background-color: var(--bg--button-hover);
 }
 
-/*modal*/
+/*Modal*/
 .modal-wrapper.open {
   opacity: 1;
   visibility: visible;

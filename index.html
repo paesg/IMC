@@ -8,7 +8,7 @@
   <title>Calculadora de IMC</title>
   <link rel="stylesheet" href="./style.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-  <script src="./script.js" defer></script>
+  <script src="./js/script.js" defer type="module"></script>
 </head>
 <body>
   <div class="alert-error">
@@ -25,7 +25,7 @@
         </div>
 
         <div class="input-wrapper">
-          <label for="height">Altura (m)</label>
+          <label for="height">Altura (cm)</label>
           <input id="height" type="text" placeholder="165">
         </div>
 
@@ -38,7 +38,7 @@
     <div class="modal card">
       <h2 class="title">
         <button class="close"><img src="assets/close.svg" alt="Fechar o popup"></button>
-        Seu IMC é de 28
+        <span>Seu IMC é de 28</span>
       </h2>
     </div>
   </div>
